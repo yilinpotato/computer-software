@@ -1,0 +1,19 @@
+# Conda environment configuration for AI Study Assistant Diagrams
+name: diagram_env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # --- Core Dependencies from Conda ---
+  - python=3.10         # We specify a Python version for reproducibility
+  - graphviz            # Installs both the Python library and the command-line tool!
+  - openjdk             # Installs Java, which is required by plantuml
+
+  # --- Python packages to be installed by Pip ---
+  - pip
+  - pip:
+    - diagrams          # For the system architecture diagram
+    - plantuml          # For the UML use case diagram
+    - jupyterlab        # (Optional) A great tool for testing code snippets

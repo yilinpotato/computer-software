@@ -1,0 +1,6 @@
+Collecting alibabacloud-nls-python-sdk
+  Downloading alibabacloud_nls_python_sdk-1.0.2-py3-none-any.whl.metadata (976 bytes)
+Collecting oss2 (from alibabacloud-nls-python-sdk)
+  Downloading oss2-2.19.1.tar.gz (298 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'canceled'
